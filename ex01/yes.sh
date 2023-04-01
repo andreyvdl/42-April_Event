@@ -2,5 +2,5 @@
 
 while true
 do
-	echo "yes"
+	awk 'BEGIN {print "yes"}'
 done
