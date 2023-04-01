@@ -19,7 +19,7 @@ $string = clean($string);
 my $revstr = reverse($string);
 
 if ($string eq $revstr) {
-	print "The string is a palindrome.";
+	print "The string is a palindrome!";
 } else {
 	print "The string is not a palindrome.";
 }
