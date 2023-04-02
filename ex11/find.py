@@ -5,7 +5,7 @@ poke_name = input("Enter the name of a pokemon: ").strip().lower()
 
 if poke_name == "":
 	print("You did not enter a name.")
-	exit(22)
+	exit()
 try:
 	request = requests.get("https://pokeapi.co/api/v2/pokemon/" + poke_name)
 except requests.HTTPError:
